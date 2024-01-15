@@ -26,5 +26,10 @@ public class DebugExercise1 {
         int b3 = 4;
         int result3 = divideThenRound(t3, b3);
         System.out.println("round(" + t3 + "/" + b3 + ")=" + result3);
+
+        int t4 = -2;
+        int t5 = 3;
+        int result4 = divideThenRound(t4, t5);
+        System.out.println("round(" + t4 + "/" + t5 + ")=" + result4);
     }
 }
